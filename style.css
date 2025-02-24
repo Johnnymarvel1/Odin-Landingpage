@@ -1,0 +1,90 @@
+html,body,*{
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    /* outline: red solid 2px; */
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Assets/fonts/Roboto-VariableFont_wdth,wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+body{
+    background-color: #1f2937;
+    font-family: 'roboto';
+}
+
+header, .hero{
+    /* background-color: #1f2937; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 0 200px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-variation-settings: 'wght' 900;
+}
+
+.hero-sec, a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-img{
+    max-width: 300px;
+}
+
+img{
+    max-width: 300px;
+}
+
+p{
+    color: #1f2937;
+}
+.info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-group{
+    display: flex;
+}
+
+.inspo{
+    background-color: #e5e7eb;  
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
