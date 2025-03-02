@@ -4,12 +4,12 @@ html,body,*{
     box-sizing: border-box;
     font-family: 'Roboto';
     text-decoration: none;
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
     border: 0;
 }
 
 img{
-    /* vertical-align: middle; */
+    vertical-align: middle;
     max-width: 100%;
     height: auto;
     font-style: italic;
@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 10rem 16rem;
+    height: 20rem;
 }
 
 body{
@@ -48,16 +49,19 @@ ul{
 }
 
 .hero-sep{
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
+
 .hero-main{
-    font-size: 48px;
+    font-size: 4rem;
     color: #f9faf8;
     font-variation-settings: 'wght' 900;
 }
 
 .hero-sec, a{
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #e5e7eb;
 }
 
@@ -69,16 +73,32 @@ ul{
 
 .hero-img{
     display: flex;
+    flex-direction: row;
     background: green;
     width: 50%;
-    height: 400px;;
-    border: purple 2px solid;
+    height: auto;
+    /* border: purple 2px solid; */
+}
+
+.img1{
+    object-fit: cover;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    padding: 0.6rem 2.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    font-weight: 500;
+    align-self: flex-start;
 }
 
 p{
     color: #1f2937;
 }
 .info{
+    padding: 0 16rem;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -87,6 +107,18 @@ p{
 
 .info-group{
     display: flex;
+}
+
+.rand1card{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: #3882f6 solid 5px;
+}
+
+.rand1{
+    object-fit: cover;
 }
 
 .inspo{
