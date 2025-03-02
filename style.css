@@ -2,7 +2,18 @@ html,body,*{
     margin: 0;
     color: white;
     box-sizing: border-box;
-    /* outline: red solid 2px; */
+    font-family: 'Roboto';
+    text-decoration: none;
+    outline: red solid 2px;
+    border: 0;
+}
+
+img{
+    /* vertical-align: middle; */
+    max-width: 100%;
+    height: auto;
+    font-style: italic;
+    shape-margin: 1rem;
 }
 
 @font-face {
@@ -12,35 +23,33 @@ html,body,*{
     font-display: swap;
 }
 
-body{
-    background-color: #1f2937;
-    font-family: 'roboto';
-}
-
-header, .hero{
-    /* background-color: #1f2937; */
-}
-
 header{
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
-    margin: 0 200px;
+    margin: 0 16rem;
 }
 
 .hero{
     display: flex;
-    justify-content: space-evenly;
-    margin: 200px;
+    justify-content: space-between;
+    margin: 10rem 16rem;
 }
+
+body{
+    background-color: #1f2937;
+}
+
 ul{
     display: flex;
     gap: 30px;
     list-style: none;
     padding: 0;
-
 }
 
+.hero-sep{
+    width: 40%;
+}
 .hero-main{
     font-size: 48px;
     color: #f9faf8;
@@ -55,14 +64,15 @@ ul{
 .header-logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 .hero-img{
-    max-width: 300px;
-}
-
-img{
-    max-width: 300px;
+    display: flex;
+    background: green;
+    width: 50%;
+    height: 400px;;
+    border: purple 2px solid;
 }
 
 p{
