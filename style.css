@@ -103,30 +103,64 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 8rem;
+}
+
+.raninfo{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 4rem 0;
 }
 
 .info-group{
     display: flex;
+    gap: 5rem;
 }
 
-.rand1card{
+.info-group p{
+    text-align: center;
+    color: hsl(217, 23%, 22%);
+    font-size: 1.2rem ;
+    margin-top: 0.5rem;
+}
+.randcon{
     display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: space-between;
+    /* border: #1f2937 2px solid; */
+}
+
+.randcard{
+    /* display: flex; */
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 1.2rem;
+    background-color: #3882f6;
     border: #3882f6 solid 5px;
 }
 
-.rand1{
+.rand1, .rand2, .rand3, .rand4{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.9rem;
     object-fit: cover;
 }
 
+
 .inspo{
-    background-color: #e5e7eb;  
+    background-color: #e5e7eb; 
+    height: 30rem;
+    display: flex;
+    justify-content: center;
 }
 
 .quote{
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+    
+    outline: red 2px solid;
+    margin: auto 20rem;
+    
 }
