@@ -4,7 +4,6 @@ html,body,*{
     box-sizing: border-box;
     font-family: 'Roboto';
     text-decoration: none;
-    /* outline: red solid 2px; */
     border: 0;
 }
 
@@ -82,10 +81,8 @@ ul{
 .hero-img{
     display: flex;
     flex-direction: row;
-    background: green;
     width: 50%;
     height: auto;
-    /* border: purple 2px solid; */
 }
 
 .img1{
@@ -136,11 +133,9 @@ p{
     flex-direction: column;
     max-width: 200px;
     justify-content: space-between;
-    /* border: #1f2937 2px solid; */
 }
 
 .randcard{
-    /* display: flex; */
     width: 200px;
     height: 200px;
     border-radius: 1.2rem;
@@ -170,7 +165,6 @@ p{
     font-weight: 250;
     color: #1f2937;
     margin: 0 30rem;
-    /* outline: rgb(4, 0, 255) 2px solid; */
 }
 
 .thor{
@@ -195,8 +189,6 @@ p{
     width: 70%;
     height: 50%;
     border-radius: 0.8rem;
-    /* outline: #3882f6 2px solid;
-    align-content: flex-end; */
 }
  
 .ctocon{
@@ -233,5 +225,4 @@ footer{
     font-weight: 400;
     margin: auto;
     color: #e5e7eb;
-    /* outline: #3882f6 2px solid; */
 }
