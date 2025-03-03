@@ -23,6 +23,14 @@ img{
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Roboto-italic';
+    src: url('Assets/fonts/Roboto-Italic-VariableFont_wdth,wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -152,15 +160,78 @@ p{
     background-color: #e5e7eb; 
     height: 30rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .quote{
+    font-family: 'Roboto-italic';
     font-size: 36px;
-    font-style: light italic;
+    font-weight: 250;
     color: #1f2937;
-    
-    outline: red 2px solid;
-    margin: auto 20rem;
-    
+    margin: 0 30rem;
+    /* outline: rgb(4, 0, 255) 2px solid; */
+}
+
+.thor{
+    align-self: flex-end;
+    margin: 0 31rem 0 30rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cto{
+    background-color: white;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctocard{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 70%;
+    height: 50%;
+    border-radius: 0.8rem;
+    /* outline: #3882f6 2px solid;
+    align-content: flex-end; */
+}
+ 
+.ctocon{
+    align-self: center;
+}
+.cto1{
+    color: #e5e7eb;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cto2{
+    color: #e5e7eb;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.signup{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #3882f6;
+    align-self: center;
+    border-radius: 0.4rem;
+    border: white 0.2rem solid;
+    padding: 0.5rem 2.5rem;
+}
+
+footer{
+    display: flex;
+    height: 7rem;
+}
+
+.footertext{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: auto;
+    color: #e5e7eb;
+    /* outline: #3882f6 2px solid; */
 }
